@@ -11,8 +11,8 @@
 		<link rel="stylesheet" href="css/main.css?v=v2" />
 	</head>
 	<body style="padding-bottom: 64px;">
-
-		<nav class="navbar sticky-top navbar-expand-lg bg-light">
+    <div class="sticky-top">
+		<nav class="navbar navbar-expand-lg bg-light">
 			<div class="container-fluid">
 				<a class="navbar-brand" href="list-forms.html">Form name here</a>
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -32,65 +32,68 @@
 					</form>
 				</div>
 			</div>
+		</nav>
+
+		<nav class="navbar navbar-expand-lg bg-light">
 			<div class="container-fluid">
 				<span class="navbar-text">
 					Section 1
 				</span>
 			</div>
 		</nav>
-
-		<div class="container-fluid p-0">
-			<div class="list-group">
-				<div class="list-group-item d-flex gap-3 py-3">
-					<div class="d-flex gap-2 w-100 justify-content-between">
-						<div>
-							<h6>Name of Submitter</h6>
-							<select class="form-select" aria-label="Default select example">
-								<option selected>Please select a name...</option>
-								<option value="1">Person 1</option>
-								<option value="2">Person 2</option>
-								<option value="3">Person 3</option>
-							  </select>
-						</div>
-					</div>
-				</div>
-				<div class="list-group-item d-flex gap-3 py-3">
-					<div class="d-flex gap-2 w-100 justify-content-between">
-						<div>
-							<h6>Date/Time</h6>
-							<input type="datetime-local" class="form-control" />
-						</div>
-					</div>
-				</div>
-				<div class="list-group-item d-flex gap-3 py-3">
-					<div class="d-flex gap-2 w-100 justify-content-between">
-						<div>
-							<h6>Client</h6>
-							<input type="text" class="form-control" />
-						</div>
+    </div>
+	<div class="container-fluid p-0">
+		<div class="list-group">
+			<div class="list-group-item d-flex gap-3 py-3">
+				<div class="d-flex gap-2 w-100 justify-content-between">
+					<div>
+						<h6>Name of Submitter</h6>
+						<select class="form-select" aria-label="Default select example">
+							<option selected>Please select a name...</option>
+							<option value="1">Person 1</option>
+							<option value="2">Person 2</option>
+							<option value="3">Person 3</option>
+							</select>
 					</div>
 				</div>
 			</div>
-
-			
+			<div class="list-group-item d-flex gap-3 py-3">
+				<div class="d-flex gap-2 w-100 justify-content-between">
+					<div>
+						<h6>Date/Time</h6>
+						<input type="datetime-local" class="form-control" />
+					</div>
+				</div>
+			</div>
+			<div class="list-group-item d-flex gap-3 py-3">
+				<div class="d-flex gap-2 w-100 justify-content-between">
+					<div>
+						<h6>Client</h6>
+						<input type="text" class="form-control" />
+					</div>
+				</div>
+			</div>
 		</div>
 
-		<nav class="navbar fixed-bottom navbar-expand-sm bg-light">
-			<div class="container-fluid d-flex">
-				<div class="d-flex justify-content-start">
-					<a href="list-forms.html" class="btn btn-secondary btn-lg"><i class="bi bi-list-task"></i></a>
-				</div>
-				<div class="d-flex justify-content-center">
-					<a class="btn btn-success btn-lg disabled">Submit</a>
-				</div>
-				<div class="d-flex justify-content-end">
-					<div class="container-fluid">
-						<a class="btn btn-secondary btn-lg disabled"><i class="bi bi-arrow-left-circle"></i></a>				
-					</div>
-					<a href="submit-form-2.html" class="btn btn-secondary btn-lg"><i class="bi bi-arrow-right-circle"></i></a>
-				</div>
+		
+	</div>
+
+	<nav class="navbar fixed-bottom navbar-expand-sm bg-light">
+		<div class="container-fluid d-flex">
+			<div class="d-flex justify-content-start">
+				<a href="list-forms.html" class="btn btn-secondary btn-lg"><i class="bi bi-list-task"></i></a>
 			</div>
-		</nav>
+			<div class="d-flex justify-content-center">
+				<a class="btn btn-success btn-lg disabled">Submit</a>
+			</div>
+			<div class="d-flex justify-content-end">
+				<div class="container-fluid">
+					<a class="btn btn-secondary btn-lg disabled"><i class="bi bi-arrow-left-circle"></i></a>				
+				</div>
+				<a href="submit-form-2.html" class="btn btn-secondary btn-lg"><i class="bi bi-arrow-right-circle"></i></a>
+			</div>
+		</div>
+	</nav>
 		  
 
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
